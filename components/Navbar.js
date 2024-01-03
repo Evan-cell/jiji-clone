@@ -5,7 +5,7 @@ function Navbar() {
     <div className='bg relative'>
       <div className='flex justify-between items-center  border-gray-100 relative'>
         <div className=''>
-          <img className='h-16 p-2' src="https://upload.wikimedia.org/wikipedia/commons/1/15/Jiji_africa.jpg" alt="" />
+          <img className='h-14 p-2' src="https://upload.wikimedia.org/wikipedia/commons/1/15/Jiji_africa.jpg" alt="" />
         </div>
         <div className='flex mr-4 items-center'>
           <div className='text-white mr-4 text-lg'>Sign in | Register</div>
