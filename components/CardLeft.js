@@ -2,7 +2,7 @@ import React from 'react'
 import { ChevronRightIcon } from '@heroicons/react/24/solid';
 function CardLeft() {
   return (
-    <div className='bg-white mt-3  ml-3 max-w-[420px] '>
+    <div className='bg-white mt-3  ml-5 max-w-[400px] '>
        <div className='flex items-center justify-between cursor-pointer hover:bg-gray-300'>
        <div className='p-1 flex'>
             <img className='h-12' src="https://assets.jijistatic.com/art/attributes/categories/vehicles.png" alt="" />

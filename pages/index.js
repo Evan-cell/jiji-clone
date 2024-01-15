@@ -5,6 +5,7 @@ import LeftBanner from '@/components/LeftBanner'
 import CardLeft from '@/components/CardLeft'
 
 
+
 export default function Home() {
   return (
   <main className='main'>
@@ -13,6 +14,7 @@ export default function Home() {
     <LeftBanner/>
     <div className='max-w-screen-2xl mx-auto'>
     <CardLeft/>
+   
     </div>
   </main>
   )
