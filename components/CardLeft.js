@@ -3,7 +3,7 @@ import { ChevronRightIcon } from '@heroicons/react/24/solid';
 import Carouselx from './Carouselx';
 function CardLeft() {
   return ( 
-    <div className='flex hidden sm:hiddden md:hidden lg:inline-flex '>
+    <div className='flex hidden sm:hiddden md:hidden lg:hidden xl:inline-flex '>
         <div className='bg-white mt-3  ml-5 max-w-[400px]  '>
             <div className='flex items-center justify-between cursor-pointer hover:bg-gray-300'>
                 <div className='p-1 flex'>
