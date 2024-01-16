@@ -4,7 +4,7 @@ import { PlusCircleIcon } from '@heroicons/react/24/outline';
 import Carouselx from './Carouselx';
 function CardLeft() {
   return ( 
-    <div className='flex hidden sm:hiddden md:hidden lg:hidden xl:inline-flex relative '>
+    <div className='flex hidden sm:hiddden md:hidden lg:hidden xl:inline-flex absolute '>
         <div className='bg-white mt-3  ml-5 max-w-[400px]  '>
             <div className='flex items-center justify-between cursor-pointer hover:bg-gray-300'>
                 <div className='p-1 flex'>
@@ -112,11 +112,11 @@ function CardLeft() {
              <div className=' ml-5'>
             <Carouselx/>
             </div>
-            <div className='bg-orange-400 mt-3  ml-5 max-w-[300px] max-h-[240px] cursor-pointer'>
-                <div className='pl-10 pr-10 flex flex-col'>
-                <h1 className='text-xl font-semibold text-white '>Got something to sell?</h1>
-                <PlusCircleIcon className='h-48 -mb-4  text-white'/>
-                <h1 className='text-xl font-semibold text-white'>Post an advert for free!</h1>
+            <div className='bt mt-3 ml-5 max-w-[300px] max-h-[220px] cursor-pointer'>
+                <div className='p-2 flex flex-col'>
+                <h1 className='text-lg pr-3 pl-3 font-semibold text-white '>Got something to sell?</h1>
+                <PlusCircleIcon className='h-40 -mb-4  text-white'/>
+                <h1 className='text-lg pr-3 pl-3 font-semibold text-white'>Post an advert for free!</h1>
                 </div>
             </div>
     </div>

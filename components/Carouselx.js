@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 function Carouselx() {
   return (
-    <div className=' mx-auto mt-5  max-w-[800px] text-center '>
+    <div className=' mx-auto mt-5  max-w-[750px] text-center '>
     
     <Carousel
                 autoPlay
