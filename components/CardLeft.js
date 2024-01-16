@@ -1,10 +1,12 @@
 import React from 'react'
 import { ChevronRightIcon } from '@heroicons/react/24/solid';
+import Carouselx from './Carouselx';
 function CardLeft() {
-  return (
-    <div className='bg-white mt-3  ml-5 max-w-[400px] '>
-       <div className='flex items-center justify-between cursor-pointer hover:bg-gray-300'>
-       <div className='p-1 flex'>
+  return ( 
+    <div className='flex '>
+        <div className='bg-white mt-3  ml-5 max-w-[400px] hidden sm:hiddden md:hidden lg:block '>
+            <div className='flex items-center justify-between cursor-pointer hover:bg-gray-300'>
+                <div className='p-1 flex'>
             <img className='h-12' src="https://assets.jijistatic.com/art/attributes/categories/vehicles.png" alt="" />
             <div className='ml-3'>
             <h1 className='text-sm'>Vehicles</h1>
@@ -100,16 +102,15 @@ function CardLeft() {
             <h1 className='text-sm'>Services</h1>
             <h1 className='text-xs font-bold'>38,935 ads</h1>
             </div>
-        </div>
+             </div>
         <ChevronRightIcon className='h-5 text-gray-700'/>
-       </div>
-     
-       
+            </div>
 
 
-
-      
-
+        </div>
+             <div className=' ml-5 hidden sm:hiddden md:hidden lg:block'>
+            <Carouselx/>
+            </div>
     </div>
   )
 }

@@ -1,9 +1,11 @@
 import React from 'react'
+import jiji1 from '../assets/jiji1.png'
+import jiji2 from '../assets/jiji2.png'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 function Carouselx() {
   return (
-    <div className=' mx-auto mt-5  max-w-[1300px] text-center '>
+    <div className=' mx-auto mt-5  max-w-[800px] text-center '>
     
     <Carousel
                 autoPlay
@@ -14,20 +16,12 @@ function Carouselx() {
                 interval={5000}
         >
             <div>
-                <img loading='lazy' src="https://ke.jumia.is/cms/2023/W42/SIS/_SiS.jpg" alt="" />
+                <img loading='lazy' src='https://i.ibb.co/cNMkCGV/jiji1.png' alt="" />
             </div>
             <div>
-            <img loading='lazy' src="https://ke.jumia.is/cms/2023/W42/SIS/PRK_SIS.jpg" alt="" />
+            <img loading='lazy' src="https://i.ibb.co/FXdSnQW/jiji2.png" alt="" />
             </div>
-            <div>
-            <img loading='lazy' src="https://ke.jumia.is/cms/2023/W38/CP/OkoaMwezi/SIS/Defacto_SIS.jpg" alt="" />
-            </div>
-            <div>
-                <img loading='lazy' src="https://ke.jumia.is/cms/2023/W38/CP/OkoaMwezi/SIS/Ecko_SIS.jpg" alt="" />
-            </div>
-            <div>
-                <img loading='lazy' src="https://ke.jumia.is/cms/2023/W38/CP/OkoaMwezi/SIS/Maybelline_SiS.jpg" alt="" />
-            </div>
+
 
         </Carousel>
 </div>

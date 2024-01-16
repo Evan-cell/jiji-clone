@@ -13,7 +13,7 @@ export default function Home() {
     <Search/>
     <LeftBanner/>
     <div className='max-w-screen-2xl mx-auto'>
-    <CardLeft/>
+    <CardLeft />
    
     </div>
   </main>
