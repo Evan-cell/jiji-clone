@@ -3,8 +3,8 @@ import { ChevronRightIcon } from '@heroicons/react/24/solid';
 import Carouselx from './Carouselx';
 function CardLeft() {
   return ( 
-    <div className='flex '>
-        <div className='bg-white mt-3  ml-5 max-w-[400px] hidden sm:hiddden md:hidden lg:block '>
+    <div className='flex hidden sm:hiddden md:hidden lg:inline-flex '>
+        <div className='bg-white mt-3  ml-5 max-w-[400px]  '>
             <div className='flex items-center justify-between cursor-pointer hover:bg-gray-300'>
                 <div className='p-1 flex'>
             <img className='h-12' src="https://assets.jijistatic.com/art/attributes/categories/vehicles.png" alt="" />
@@ -108,7 +108,7 @@ function CardLeft() {
 
 
         </div>
-             <div className=' ml-5 hidden sm:hiddden md:hidden lg:block'>
+             <div className=' ml-5'>
             <Carouselx/>
             </div>
     </div>
