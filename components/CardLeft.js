@@ -3,6 +3,7 @@ import { ChevronRightIcon } from '@heroicons/react/24/solid';
 import { PlusCircleIcon } from '@heroicons/react/24/outline';
 import Carouselx from './Carouselx';
 import Products from './Products';
+import MobileCard from './MobileCard';
 function CardLeft() {
   return ( 
     <div>
@@ -122,6 +123,9 @@ function CardLeft() {
                 </div>
             </div>
             
+        </div>
+        <div>
+        <MobileCard/>
         </div>
         <div className=''><Products/></div>
     </div>
