@@ -2,11 +2,13 @@ import React from 'react'
 import { ChevronRightIcon } from '@heroicons/react/24/solid';
 import { PlusCircleIcon } from '@heroicons/react/24/outline';
 import Carouselx from './Carouselx';
+import Products from './Products';
 function CardLeft() {
   return ( 
-    <div className='flex hidden sm:hiddden md:hidden lg:hidden xl:inline-flex absolute '>
-        <div className='bg-white mt-3  ml-5 max-w-[400px]  '>
-            <div className='flex items-center justify-between cursor-pointer hover:bg-gray-300'>
+    <div>
+        <div className='flex hidden sm:hiddden md:hidden lg:hidden xl:inline-flex  '>
+            <div className='bg-white mt-3  ml-5 max-w-[400px]  '>
+                <div className='flex items-center justify-between cursor-pointer hover:bg-gray-300'>
                 <div className='p-1 flex'>
             <img className='h-12' src="https://assets.jijistatic.com/art/attributes/categories/vehicles.png" alt="" />
             <div className='ml-3'>
@@ -119,6 +121,9 @@ function CardLeft() {
                 <h1 className='text-lg pr-3 pl-3 font-semibold text-white'>Post an advert for free!</h1>
                 </div>
             </div>
+            
+        </div>
+        <Products/>
     </div>
   )
 }
