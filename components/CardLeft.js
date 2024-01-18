@@ -123,7 +123,7 @@ function CardLeft() {
             </div>
             
         </div>
-        <Products/>
+        <div className=''><Products/></div>
     </div>
   )
 }

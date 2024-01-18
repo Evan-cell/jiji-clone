@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
   return (
-    <div className='bg sticky top-0 '>
+    <div className='bg sticky top-0 z-50'>
       <div className='flex justify-between items-center  border-gray-100 relative'>
         <div className=''>
           <img className='h-14 p-2' src="https://upload.wikimedia.org/wikipedia/commons/1/15/Jiji_africa.jpg" alt="" />
