@@ -4,7 +4,7 @@ function Products() {
   return (
     <div className='ml-[340px] -mt-[330px] cursor-pointer relative '>
         <h1 className='font-bold text-xl text-gray-600 tracking-wider hidden'>Trending Ads</h1>
-        <div className='grid grid-cols-3 pl-2 -ml-[600px] mt-[315px] lg:ml-[1px] lg:-mt-[2px] overflow-hidden sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 space-x-2 space-y-2'>
+        <div className='grid grid-cols-3 pl-2 -ml-[600px] mt-[315px] xl:ml-[1px] xl:-mt-[2px]  sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 space-x-2 space-y-2'>
         <div className=''>
             <div className='pt-3 pb-5 rounded-md'>
                 <img className='h-48 w-68 sm:h-48 sm:w-68 md:h-48 md:w-68 lg:h-48 lg:w-68 xl:h-48 xl:w-68 rounded-t-md'  src="https://pictures-kenya.jijistatic.com/54875297_MTYwMC0xMjAwLWE3MzA2MjU2MGE.webp" alt="" />
