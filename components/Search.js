@@ -10,7 +10,7 @@ function Search() {
         <span className='flex p-1 rounded-md text-white bg-black max-w-28'><MapPinIcon className='h-6'/> All Kenya</span>
       </div>
       <div className='mx-auto relative flex p-3 items-center  '>
-      <input type="text" placeholder='I am looking for' className='p-5 pr-60 lg:pr-80 pl-5 rounded-l-lg border-none focus:outline-none' />
+      <input type="text" placeholder='I am looking for' className='p-5 lg:pr-60 md:pr-60 xl:pr-60 lg:pr-80 pl-5 rounded-l-lg border-none focus:outline-none' />
       <MagnifyingGlassIcon className='h-8 text-gray-400 absolute  right-3.5'/>
       </div>
     </div>

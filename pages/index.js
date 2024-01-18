@@ -9,14 +9,17 @@ import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-  <main className='main'>
-    <Navbar />
+    <div className='main '>
+          <Navbar className='' />
     <Search />
     <LeftBanner/>
-    <div className='max-w-screen-2xl mx-auto'>
+    <div className=''>
     <CardLeft />
     </div>
     <Footer/>
-  </main>
+    </div>
+
+
+
   )
 }

@@ -7,7 +7,7 @@ import MobileCard from './MobileCard';
 function CardLeft() {
   return ( 
     <div>
-        <div className='flex hidden sm:hiddden md:hidden lg:hidden xl:inline-flex  '>
+        <div className='flex hidden sm:hiddden md:hidden lg:hidden xl:inline-flex '>
             <div className='bg-white mt-3  ml-5 max-w-[400px]  '>
                 <div className='flex items-center justify-between cursor-pointer hover:bg-gray-300'>
                 <div className='p-1 flex'>

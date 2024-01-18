@@ -10,7 +10,7 @@ function Footer() {
         className="mx-auto"
       />
     </div>
-    <div className='bg3 text-white'>
+    <div className='bg3 text-white cursor-pointer'>
         <div className='grid grid-cols-2 items-center pl-20 md:grid-cols-3 lg:grid-cols-5 lg:pl-16 pt-5 lg:space-x-40 '>
             <div className='space-y-3'>
                 <h1 className='text-black'>About us</h1>
